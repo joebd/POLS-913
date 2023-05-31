@@ -1,0 +1,51 @@
+\documentclass[document]{cup-journal}
+
+\usepackage{amsmath}
+\usepackage[nopatch]{microtype}
+\usepackage{booktabs}
+
+\begin{document} 
+
+\begin{table}[H]
+\centering
+\caption{Logit Model Results}
+\label{Table 2}
+\begin{tabular}{l | c | c}
+            & Full Sample & Homeowners/Renters \\
+			\hline
+			Constant & -0.88$^{*}$ & -0.95$^{*}$ \\
+			& (0.31) & (0.31) \\ 
+			Marital Status & 0.05 & 0.05  \\ 
+			& (0.04) & (0.04) \\ 
+			Age & -0.01$^{*}$ & -0.01$^{*}$ \\
+			& (0.00) & (0.21) \\ 
+			Female & 0.01 & 0.01 \\
+			& (0.06) & (0.06) \\ 
+			White & 0.00 & -0.03  \\
+			& (0.10) & (0.10) \\ 
+			Income & 0.06$^{*}$ & 0.09$^{*}$ \\ 
+			& (0.03) & (0.03) \\ 
+            Education & -0.06$^{*}$ & -0.06$^{*}$ \\ 
+			& (0.03) & (0.03) \\ 
+            Homeowners & 0.23$^{*}$  & -  \\ 
+			& (0.08)  &  - \\ 
+            Christianity & 0.05 & 0.07   \\ 
+			& (0.27)  & (0.26)\\ 
+            Party ID (5) & 0.19$^{*}$ & 0.20$^{*}$  \\ 
+			& (0.03) & (0.03)\\ 
+			\hline
+			N & 4,243 & 4,243 \\
+			AIC & 5,635 & 5,641  \\
+		  $x^2$ & 93 & 84 \\ 
+                \end{tabular}
+                \begin{tablenotes}[hang]
+                \item[] Note: \emph{p-value} is \leq 0.1 ^{*} 
+                \end{tablenotes}
+\end{table}
+
+
+\end{document} 
+
+
+
+

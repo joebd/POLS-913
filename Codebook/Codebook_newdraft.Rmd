@@ -1,0 +1,94 @@
+---
+title: "POLS 913 Term Paper"
+subtitle: "Codebook" 
+author: "Joe B. - githhub.com/joebd"
+date: ""
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# POLS 913: Urban Politics Term Paper. 
+
+Blaszcynski, Joseph. 2023. "*For the Love of Money*: NIMBY and the Anti-Government Funding Attitudes." 
+_University of Wisconsin - Milwaukee_ XX XXXX:XXX.  
+
+The raw data was cleaned and transformed for analysis. Please refer to the GSS link 
+below to find out more information about the variables.   
+
+A description of the variables used:
+
+--------------------------------------------------------------------------------
+Name                Description
+------------------- ------------------------------------------------------------
+`year`                 Year for this respondent
+
+`wtssall`              GSS survey default weights 
+
+`age_new`              Age of the respondent 
+
+`marital_new`          Marital status of respondent (1 = Never Married, 2 = Married, 3 = Divorced, 4 = Widowed, 5 = Separated)          
+
+`sex_new`              Respondent sex (0 = Other, 1 = Female)
+
+`ownrent`              Respondent form of property ownership (0 = Renting, 1 = Homeowner or is buying)
+
+`college`              Respondent's level of completed education (1 = Less than high school, 2 = High school, 3 = Associate/junior college, 4 = Bachelor's, 5 = Graduate)
+
+`income_new`           Income of the respondent (0 = Under \$1K, 1 = \$10K-\$19K, 3 = \$20-24,999, 4 = \$25K or More)
+
+`religon_new`          Religion of the respondent (0 = Other, 1 = Christian Affiliation)
+
+`partyid5`             Political party identification of the respondent (1 = Strong Democrat, 2 = Not Very Strong Democrat, 3 = Independent (neither), 4 = Not Very Strong Republican, 5 = Strong Republican)
+
+`race_new`             Race of the respondent (0 = Other, 1 = Black) 
+
+`natcity_new`          Problems in city spending (1 = Too Little, 2 = About Right, 3 = Too Much)
+
+`natcrime_new`         Spending on crime (1 = Too Little, 2 = About Right, 3 = Too Much)
+
+`nateduc_new`          Education spending (1 = Too Little, 2 = About Right, 3 = Too Much)
+
+`natfare_new`          Welfare spending (1 = Too Little, 2 = About Right, 3 = Too Much)
+
+`natroad_new`          Roads/Highways spending (1 = Too Little, 2 = About Right, 3 = Too Much)
+
+`intfarm_new`          Interests in farm policy issues (0 = Other, 1 = Interested)
+
+`intecon_new`          Interests in economic policy issues (0 = Other, 1 = Interested)
+
+`intenvir_new`         Interests in environmental policy issues (0 = Other, 1 = Interested)
+
+`intmil_new`           Interests in military policy issues (0 = Other, 1 = Interested)
+  
+`inteduc_new`          Interests in education policy issues (0 = Other, 1 = Interested)
+
+`aidhouse_new`         Respondent support/opposition towards government providing housing (0 = Should Not, 1 = Should)      
+
+`funddv`               NIMBY & Anti-Government Funding (0 = Other, 1 = NIMBY with other Anti-Government funding attitudes)
+
+--------------------------------------------------------------------------------
+
+## Survey Questions 
+
+Below are the survey questions that were used throughout the analysis. 
+
+\underline{Affordable Housing} (aidhouse_new): "On the whole, do you think it should or should not be the government's responsibility to provide decent housing for those who can't afford it." 
+
+\underline{Solving Problems of Big Cities} (natcity_new): "We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. First (READ ITEM A) . . . are we spending too much, too little, or about the right amount on (ITEM)?" 
+
+\underline{Improving Nations Education System} (nateduc_new): "We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. First (READ ITEM A) . . . are we spending too much, too little, or about the right amount on (ITEM)?" 
+
+\underline{Welfare} (natfare_new): "We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. First (READ ITEM A) . . . are we spending too much, too little, or about the right amount on (ITEM)?" 
+
+\underline{Highways and Bridges} (natroad_new): "We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. First (READ ITEM A) . . . are we spending too much, too little, or about the right amount on (ITEM)?" 
+
+
+## References 
+
+[General Social Survey Dataset](https://gssdataexplorer.norc.org/home) 
+
+
+
